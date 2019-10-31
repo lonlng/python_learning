@@ -11,3 +11,18 @@ elif topHitters['Ruth']['hits']>topHitters['Gehrig']['hits']and topHitters['Ruth
     print(topHitters['Ruth']['hits'])
 else:
     print(topHitters['Willams']['hits'])
+
+print(".4)")
+sinfo= {"xiaohong":0, "xiaolan":0,"xiaoming":1,"xiaobai":1}
+print(sinfo.keys())
+sinfoList=[]
+for key4 in sinfo.keys():
+    sinfoList.append(key4)
+for key3 in sinfoList:
+    print(key3)
+    print(sinfo[key3],"\n",type(sinfo[key3]))
+    if sinfo[key3]==1:
+        del sinfo[key3]
+print(sinfo.keys())
+
+print(".6)")
