@@ -37,29 +37,29 @@ print(".5)")
 # 将inputString作为输入字符后变量
 # inputString = input()
 inputString = 'hello java, hello python, hello C.'
+print(inputString)
 # 使用split函数对inputString 函数进行切片, 默认分割符为空格, 制表, 换行
 splitString = inputString.split()
-splitString_3 = []
+splitStr = []
 for i in splitString:
-    splitString_2 = i
+    # 使用 isalpha 函数.判断 i -- 字符串 是否为全为字母
     if not i.isalpha():
         for j in (' .,*'):
+            # 再次判断是否全为字母, 主要为了减少for循环次数
             if i.isalpha():
                 break
-            splitString_2 = "".join(i.split(j, -1))
-            i = splitString_2
-    splitString_3.append(splitString_2)
-print("splitString_3", splitString_3)
-num = 0
-num2 = {}
-for i in splitString_3:
+            i = "".join(i.split(j, -1))
+    splitStr.append(i)
+print("splitStr", splitStr)
+# 添加dictNum 变量,先赋值为空,再将单词,及其数量赋值
+dictNum = {}
+for i in splitStr:
     num = 0
-    for j in splitString_3:
+    for j in splitStr:
         if i == j:
             num += 1
-    num3 = {i: num}
-    num2.update(num3)
-print(num2)
+    dictNum.update({i: num})
+print(dictNum)
 
 print("函数")
 
