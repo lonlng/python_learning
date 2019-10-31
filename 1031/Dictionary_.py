@@ -28,4 +28,6 @@ for key3 in sinfoList:
         del sinfo[key3]
 print(sinfo.keys())
 
-print(".6)")
+print(".5)")
+inputString = 'hello java, hello python, hello C.'
+print(inputString.split(' ', -1))

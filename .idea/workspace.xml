@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090b07f8-e9a1-404e-a806-690533ab56a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1031/topHitters_.py" beforeDir="false" afterPath="$PROJECT_DIR$/1031/Dictionary_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1031/Dictionary_.py" beforeDir="false" afterPath="$PROJECT_DIR$/1031/Dictionary_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1031/split.md" beforeDir="false" afterPath="$PROJECT_DIR$/1031/split.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +33,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="800" />
-    <option name="width" value="800" />
-    <option name="height" value="860" />
   </component>
   <component name="ProjectId" id="1SxJJlxvsCYz3Q8lh6xLkz3m3Rq" />
   <component name="PropertiesComponent">
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572500387182</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="python_rename">
+      <created>1572500618076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572500618076</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +164,7 @@
     <MESSAGE value="python_topHitters" />
     <MESSAGE value="python_Max" />
     <MESSAGE value="python_mkdir" />
-    <option name="LAST_COMMIT_MESSAGE" value="python_mkdir" />
+    <MESSAGE value="python_rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="python_rename" />
   </component>
 </project>
