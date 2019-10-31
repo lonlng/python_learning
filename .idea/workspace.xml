@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572508048710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="基本完成">
+      <created>1572514200986</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572514200986</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +194,7 @@
     <MESSAGE value="python_rename" />
     <MESSAGE value="edit .md" />
     <MESSAGE value="learn def" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn def" />
+    <MESSAGE value="基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成" />
   </component>
 </project>

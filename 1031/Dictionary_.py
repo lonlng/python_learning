@@ -1,21 +1,23 @@
 import random
 
+print(".1)")
 topHitters = {"Gehrig": {"atBats": 8061, "hits": 2721}, "Ruth": {"atBats": 8399, "hits": 2873},
               "Willams": {"atBats": 7706, "hits": 2654}}
-print(topHitters['Gehrig']['hits'] / topHitters['Gehrig']['atBats'])
-print(topHitters['Ruth']['hits'] / topHitters['Ruth']['atBats'])
-print(topHitters['Willams']['hits'] / topHitters['Willams']['atBats'])
+for i in topHitters:
+    print(topHitters[i]['hits'] / topHitters[i]['atBats'])
 
-print((topHitters['Gehrig']['hits'] + topHitters['Ruth']['hits'] + topHitters['Willams']['hits']) / 3)
-print("max")
-if topHitters['Gehrig']['hits'] > topHitters['Ruth']['hits'] and topHitters['Ruth']['hits'] > topHitters['Willams'][
-    'hits']:
-    print(topHitters['Gehrig']['hits'])
-elif topHitters['Ruth']['hits'] > topHitters['Gehrig']['hits'] and topHitters['Ruth']['hits'] > topHitters['Willams'][
-    'hits']:
-    print(topHitters['Ruth']['hits'])
-else:
-    print(topHitters['Willams']['hits'])
+print('.2)')
+hits = 0
+for i in topHitters:
+    hits += topHitters[i]['hits']
+print(hits / 3)
+
+print(".3)max")
+G = "Gehrig"
+GehriGhits = topHitters['Willams']['hits']
+G = "Ruth" if topHitters[G]['hits'] < topHitters['Ruth']['hits'] else "Gehrig"
+G = "Willams" if topHitters[G]['hits'] < topHitters['Willams']['hits'] else "Gehrig"
+print("击中球次数最多的一位:", topHitters[G]['hits'])
 
 print(".4)")
 sinfo = {"xiaohong": 0, "xiaolan": 0, "xiaoming": 1, "xiaobai": 1}
@@ -72,6 +74,7 @@ def circularArea(r):
 print("圆的面积:", circularArea(4))
 
 print("三角形")
+
 
 def Triangle(a, b, c):
     return (True) if (a + b) > c and (a + c) > b and (b + c) > a else (False)
