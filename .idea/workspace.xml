@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="090b07f8-e9a1-404e-a806-690533ab56a4" name="Default Changelist" comment="">
+    <list default="true" id="090b07f8-e9a1-404e-a806-690533ab56a4" name="Default Changelist" comment="基本完成">
+      <change afterPath="$PROJECT_DIR$/1031/random.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1031/Dictionary_.py" beforeDir="false" afterPath="$PROJECT_DIR$/1031/Dictionary_.py" afterDir="false" />
     </list>
@@ -36,6 +37,7 @@
   <component name="ProjectId" id="1SxJJlxvsCYz3Q8lh6xLkz3m3Rq" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -167,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572514200986</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="基本完成">
+      <created>1572516284814</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572516284814</updated>
+    </task>
+    <task id="LOCAL-00012" summary="基本完成">
+      <created>1572516305557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1572516305557</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
