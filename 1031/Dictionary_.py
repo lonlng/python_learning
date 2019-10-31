@@ -12,6 +12,7 @@ for i in topHitters:
     hits += topHitters[i]['hits']
 print(hits / 3)
 
+
 print(".3)max")
 G = "Gehrig"
 GehriGhits = topHitters['Willams']['hits']
