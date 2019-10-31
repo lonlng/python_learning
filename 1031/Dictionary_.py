@@ -7,7 +7,7 @@ topHitters = {"Gehrig": {"atBats": 8061, "hits": 2721}, "Ruth": {"atBats": 8399,
 
 # 创建for循环, 字典topHitters 键被 i 逐个代替,
 for i in topHitters:
-    print(topHitters[i]['hits'] / topHitters[i]['atBats'])
+    print(i,'{:.2%}'.format(topHitters[i]['hits'] / topHitters[i]['atBats']))
 
 print('.2)')
 # 变量hits -- 总击中球次数, 将字典中元素值逐个相加
