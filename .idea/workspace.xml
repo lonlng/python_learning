@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090b07f8-e9a1-404e-a806-690533ab56a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (6).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (7).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (8).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (9).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_01 - 副本.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1114/txt/Test_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1114/txt/Test_06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1114/txt/Test_07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1114/txt/Test_07_new.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1114/txt/Test_08.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1114/File_open.py" beforeDir="false" afterPath="$PROJECT_DIR$/1114/File_open.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (6).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (7).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1114/txt/Test_01 - 副本 (8).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1114/txt/Test_04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1114/txt/Test_04.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +41,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="800" />
-    <option name="width" value="800" />
-    <option name="height" value="860" />
   </component>
   <component name="ProjectId" id="1SxJJlxvsCYz3Q8lh6xLkz3m3Rq" />
   <component name="ProjectLevelVcsManager">
@@ -287,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573703927432</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="finish 05">
+      <created>1573709301711</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1573709301711</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +317,7 @@
     <MESSAGE value="1114" />
     <MESSAGE value="add docx" />
     <MESSAGE value="04" />
-    <option name="LAST_COMMIT_MESSAGE" value="04" />
+    <MESSAGE value="finish 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish 05" />
   </component>
 </project>
