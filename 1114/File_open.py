@@ -74,6 +74,7 @@ if userStr in content_06:
 else:
     file_06_a.write("\nalex")
     print("用户已添加")
+file_06_a.close()
 
 # 7)
 print("(7)")
