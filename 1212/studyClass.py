@@ -102,6 +102,7 @@ class ListInfo:
 
     def add_dict(self, keyName):
         self.list.append(keyName)
+        return self.list
 
     def get_key(self, num):
         return self.list[num]
@@ -111,16 +112,14 @@ class ListInfo:
         return self.list
 
     def del_key(self):
-        temp = self.list[len(self.list)-1]
-        del self.list[len(self.list)-1]
+        temp = self.list[len(self.list) - 1]
+        del self.list[len(self.list) - 1]
         return temp
 
 
 s2 = ListInfo([1, 2, 3, 5, 7, 8, 9, 4, 6, 4, 6, 5])
 s2.update_list([99, 88, 77])
-# for i in range(s2):
-# print(i)
 
 print(s2.update_list([99, 88, 77]))
 print(s2.del_key())
-
+print(s2.add_dict(13))
