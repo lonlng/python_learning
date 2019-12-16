@@ -26,17 +26,16 @@ print(sum2)
 # (3)利用map和reduce编写一个str2float函数，把字符串'123.456'转换成浮点数123.456：
 # def str2float(c):
 #     return reduce(lambda x,map(int,c))
-str = '123456'
-
+str = '123145.367'
 
 def map2(d):
     if '.' in d:
-        liststr=list(d)[:d.index('.')] + list(d)[d.index('.') + 1:]
-        inde=d.index('.')
+        liststr = list(d)[:d.index('.')] + list(d)[d.index('.') + 1:]
+        inde = len(d) - d.index('.') - 1
     else:
-        liststr=list(d)
-        inde=0
-    return reduce(lambda x,y:x+y,list(map(lambda x: int(x) *10**(len(liststr)- liststr.index(x)), liststr)))/(10**(inde+1))
+        liststr = list(d)
+        inde = 0
+    return reduce(lambda x, y: float(x) * 10 + float(y), liststr) / (10 ** inde)
 
 list55 = map2(str)
 print(list55)
